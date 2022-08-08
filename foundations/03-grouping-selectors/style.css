@@ -1,0 +1,23 @@
+/* 
+ , (comma) is used to group different classes together -> basically, classes are different but their properties are same.
+ when we attach them [ .one.two ] -> we are telling that there are a lot of classes and element having BOTH classes one and two 
+     would be given these styling properties
+ when you give space between two classes [ .one .two ] -> we are using dependence combinator, basically an inheritance of sort..
+    all classes two which lie in class one would have these properties.
+ */
+
+
+.one, .two {
+    font-size: 28px ; 
+    font-family : Helvetica, 'Times New Roman', sans-serif ;
+}
+
+.one {
+    background-color : black ; 
+    color : white ; 
+}
+
+.two {
+    background-color : yellow ; 
+}
+
