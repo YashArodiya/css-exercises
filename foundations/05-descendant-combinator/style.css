@@ -1,0 +1,31 @@
+#a {
+    background-color : lightgreen ; 
+    color : red ; 
+    font-size : 20px ; 
+    text-align : center ;  
+}
+
+.container .text {
+    background-color : yellow ; 
+    color : red ; 
+    font-size : 20px ; 
+    text-align : center ; 
+}
+
+div p {
+    background-color : blue ; 
+    color : red ; 
+    font-size : 20px ; 
+    text-align : center ; 
+}
+
+
+/* 
+    Do notice the priority order...
+    id selector > class selector > tag selector
+    Initially background-color is blue
+    The moment I add a class selector for same elements ,
+        the background-color becomes yellow.
+    It stays yellow until I add an ID selector.
+        the background-color is now green.
+*/
