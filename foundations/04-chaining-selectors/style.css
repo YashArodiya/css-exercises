@@ -1,0 +1,16 @@
+/* This is chaining of classes.
+    An element having the same set of classes out of all classes it has,
+    would have the stylings 
+    In simpler words, elements having BOTH avatar and proportioned class would have 
+    those defined properties.
+     */
+
+.avatar.proportioned {
+    width: 300px ;
+    height : auto ; 
+}
+
+.avatar.distorted {
+    width : 200px ; 
+    height : 400px ; 
+}
