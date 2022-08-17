@@ -1,6 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center ;
 }
+  
 
 img {
   width: 100px;
@@ -10,27 +12,18 @@ img {
 .title {
   font-size: 36px ;
   font-weight: 900 ;
-  text-align: center ;
   margin-bottom: 30px ;
 }
 
 .content {
   display: flex ; 
-  flex-direction: row ;
   justify-content: center ;
-  gap: 50px ;
+  gap: 52px ;
 }
 
 .info {
-  text-align: center ;
-  width: 200px ;
-}
-
-.text{
-  text-align: center ;
-  display: flex ;
-  flex-direction: column;
-
+  /* the fuck is max-width man, this was the main problem, that's it :( */
+  max-width: 200px ;
 }
 
 /* do not edit this footer */
